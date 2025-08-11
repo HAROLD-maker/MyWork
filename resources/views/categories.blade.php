@@ -16,7 +16,7 @@
     <!-- Grid de categorías -->
     <section class="w-full max-w-6xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 mb-16">
         <div class="bg-gradient-to-br from-blue-400 to-violet-400 rounded-xl flex flex-col justify-end overflow-hidden relative h-40 shadow-lg hover:scale-105 transition">
-            <img src="/images/categoria1.jpg" alt="Belleza y Estética" class="absolute inset-0 w-full h-full object-cover opacity-60" />
+            <img src="/images/categoria1.webp" alt="Belleza y Estética" class="absolute inset-0 w-full h-full object-cover opacity-60" />
             <span class="relative z-10 text-white text-xl font-bold p-6">Belleza y<br>Estética</span>
         </div>
         <div class="bg-gradient-to-br from-blue-400 to-violet-400 rounded-xl flex flex-col justify-end overflow-hidden relative h-40 shadow-lg hover:scale-105 transition">
@@ -28,7 +28,7 @@
             <span class="relative z-10 text-white text-xl font-bold p-6">Hogar y<br>Construcción</span>
         </div>
         <div class="bg-gradient-to-br from-blue-400 to-violet-400 rounded-xl flex flex-col justify-end overflow-hidden relative h-40 shadow-lg hover:scale-105 transition">
-            <img src="/images/categoria4.jpg" alt="Educación y Clases" class="absolute inset-0 w-full h-full object-cover opacity-60" />
+            <img src="/images/categoria4.webp" alt="Educación y Clases" class="absolute inset-0 w-full h-full object-cover opacity-60" />
             <span class="relative z-10 text-white text-xl font-bold p-6">Educación y<br>Clases</span>
         </div>
         <!-- Puedes agregar más categorías aquí -->

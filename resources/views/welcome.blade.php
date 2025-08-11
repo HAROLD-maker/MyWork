@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
+
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,8 @@
     </head>
 <body class="min-h-screen bg-gradient-to-br from-blue-100 via-cyan-100 to-violet-100 text-gray-900">
     <livewire:header />
-    <main class="pt-32 max-w-7xl mx-auto px-4 flex flex-col gap-16">
+    <main class="pt-28 sm:pt-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-16">
+
         <!-- Hero Section -->
         <section class="w-full flex flex-col items-center text-center gap-6 mt-4">
             <h1 class="text-4xl md:text-5xl font-extrabold text-blue-700 mb-2">Encuentra servicios cerca de ti</h1>
@@ -23,9 +25,10 @@
         <!-- Categorías Populares -->
         <section id="servicios" class="w-full flex flex-col items-center gap-8">
             <h2 class="text-2xl font-bold text-blue-700 mb-4">Categorías populares</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 w-full">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 w-full max-w-5xl mx-auto">
+
                 <div class="bg-white/90 rounded-xl shadow-lg flex flex-col items-center p-6 hover:scale-105 transition">
-                    <img src="/images/categoria1.jpg" alt="Belleza" class="w-16 h-16 rounded-full mb-2 object-cover">
+                    <img src="/images/categoria1.webp" alt="Belleza" class="w-16 h-16 rounded-full mb-2 object-cover">
                     <span class="text-blue-700 font-semibold">Belleza</span>
                 </div>
                 <div class="bg-white/90 rounded-xl shadow-lg flex flex-col items-center p-6 hover:scale-105 transition">
@@ -37,7 +40,7 @@
                     <span class="text-blue-700 font-semibold">Hogar</span>
                 </div>
                 <div class="bg-white/90 rounded-xl shadow-lg flex flex-col items-center p-6 hover:scale-105 transition">
-                    <img src="/images/categoria4.jpg" alt="Educación" class="w-16 h-16 rounded-full mb-2 object-cover">
+                    <img src="/images/categoria4.webp" alt="Educación" class="w-16 h-16 rounded-full mb-2 object-cover">
                     <span class="text-blue-700 font-semibold">Educación</span>
                 </div>
             </div>
@@ -47,7 +50,8 @@
                 <livewire:slider />
         </section>
         <!-- Panel de filtros y resultados -->
-        <section class="w-full flex flex-col md:flex-row gap-10">
+        <section class="w-full flex flex-col md:flex-row gap-10 px-4 sm:px-6">
+
             <aside class="w-full md:w-1/3">
                 <div class="bg-white/80 rounded-2xl shadow-2xl p-8 sticky top-36 border-l-8 border-blue-400/60">
                     <livewire:filters />
@@ -63,7 +67,8 @@
         <!-- Testimonios -->
         <section class="w-full flex flex-col items-center gap-8 mt-8">
             <h2 class="text-2xl font-bold text-blue-700 mb-4">Testimonios</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl mx-auto px-2">
+
                 <div class="bg-white/90 rounded-xl shadow-lg p-6 flex flex-col items-center">
                     <span class="text-5xl mb-2">🌟</span>
                     <p class="text-gray-700 mb-2">“Encontré un plomero excelente en minutos. ¡Muy recomendado!”</p>

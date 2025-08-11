@@ -33,18 +33,14 @@
         <h2 class="text-2xl font-bold text-blue-700 mb-4">Nuestro equipo</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
             <div class="bg-white/90 rounded-xl shadow-lg p-6 flex flex-col items-center">
-                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Equipo" class="w-20 h-20 rounded-full mb-2 object-cover border-4 border-blue-200">
-                <span class="text-blue-700 font-semibold">Juan Pérez</span>
+                <img src="/images/imagenperfil.jpg" alt="Equipo" class="w-20 h-20 rounded-full mb-2 object-cover border-4 border-blue-200">
+                <span class="text-blue-700 font-semibold">Harold Montoya</span>
                 <span class="text-gray-500 text-sm">CEO & Fundador</span>
             </div>
+
             <div class="bg-white/90 rounded-xl shadow-lg p-6 flex flex-col items-center">
-                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Equipo" class="w-20 h-20 rounded-full mb-2 object-cover border-4 border-blue-200">
-                <span class="text-blue-700 font-semibold">María López</span>
-                <span class="text-gray-500 text-sm">CTO & Co-Fundadora</span>
-            </div>
-            <div class="bg-white/90 rounded-xl shadow-lg p-6 flex flex-col items-center">
-                <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Equipo" class="w-20 h-20 rounded-full mb-2 object-cover border-4 border-blue-200">
-                <span class="text-blue-700 font-semibold">Carlos Ruiz</span>
+                <img src="/images/imagenperfil.jpg" alt="Equipo" class="w-20 h-20 rounded-full mb-2 object-cover border-4 border-blue-200">
+                <span class="text-blue-700 font-semibold">Kevin Urriago</span>
                 <span class="text-gray-500 text-sm">Diseño & Producto</span>
             </div>
         </div>
